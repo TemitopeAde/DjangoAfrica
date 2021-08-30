@@ -1,0 +1,376 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    font-size: 18px;
+    font-family: 'Lato', sans-serif;
+    scroll-behavior: smooth;
+    text-align: center;
+    background-color: #0070BA;
+    font-size: 15px;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 400;
+}
+
+img {
+    width: 100%;
+}
+
+header {
+    color: white;
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0px 0px 7px 0px rgb(2 0 16);
+}
+
+header ul {
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+header ul li a {
+    color: white;
+    margin-right: 2.5rem;
+    text-transform: uppercase;
+    transition: .4s;
+    padding-bottom: 7px;
+}
+
+header ul li a:hover {
+    border-bottom: 2.5px solid white;
+}
+
+.header {
+    position: relative;
+}
+
+.bars, .times {
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+    font-size: 2rem;
+    color: rgb(1, 1, 43);
+}
+
+.times {
+    display: none;
+}
+
+.bars {
+    display: none;
+}
+
+
+.btn-1 {
+    color: white;
+    position: absolute;
+    right: 20px;
+    border: 1.4px solid white;
+    padding: .5rem 1rem;
+    border-radius: 25px;
+    top: 1rem;
+    transition: .6s all;
+}
+
+.btn-1:hover {
+    background-color: rgb(0, 14, 143);
+}
+
+
+.hero-container {
+    color: white;
+}
+
+.hero-title {
+    padding-top: 2.6rem;
+    margin-bottom: 2rem;
+}
+
+.hero-title h2 {
+    font-size: 2.3rem;
+}
+
+.hero-stats {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+    
+}
+
+.member, .online {
+    margin-right: 1rem;
+}
+
+#search {
+    width: 60%;
+    height: 40px;
+    font-size: 1.4rem;
+    border-radius: 20px;
+    padding-left: 20px;
+    letter-spacing: .7px;
+    word-spacing: 4px;
+    padding-right: 14px;
+}
+
+.btn-2 {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.posts, .online, .member {
+    line-height: 30px;
+}
+
+.btn-2 a {
+    color: white;
+    margin-right: 2rem;
+    border: 1.4px solid white;
+    padding: .5rem 6.5rem;
+    border-radius: 20px;
+    transition: .6s all;
+}
+
+.btn-2 a:hover {
+    background-color:  rgb(0, 14, 143);;
+}
+
+.hero-new-section {
+    padding: 1.5rem;
+}
+
+.hero-new-section h3 {
+    box-shadow: 0px 0px 7px 0px rgb(2 0 16);
+    padding: 1rem;
+    color: black;
+}
+
+#rules {
+    color: white;
+}
+
+
+.page-topics-container {
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    padding: 2rem;
+    padding-top: .5rem;
+}
+
+.page-topics-container a {
+    color: black;
+}
+
+.page-topics-container p {
+    color: grey;
+    padding-top: .5rem;
+}
+
+.page-topics, .page-authors, .page-solutions {
+    background: white;
+    flex-basis: 32%;
+    box-shadow: 0px 0px 7px 0px rgb(2 0 16);
+    border-radius: 20px;
+    box-shadow: 0px 0px 7px 0px rgb(2 0 16);
+}
+
+.authors-details img {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+.page-authors-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.authors-details {
+    display: flex;
+    justify-content: space-between;
+    padding: 13px;
+    align-items: center;
+}
+
+.page-flex-details, .page-slutions-post {
+    border-top: 2.1px solid grey;
+    padding: 1rem;
+}
+
+.page-flex-details:last-child, .page-slutions-post:last-child {
+    border-bottom: none;
+}
+
+
+.title-flex {
+    padding: 1rem;
+}
+
+.page-authors-flex {
+    border-top: 2.1px solid grey;
+}
+
+.post-numbers {
+    padding: 13px;
+}
+
+
+
+.number-post, .timestamp {
+    line-height: 35px;
+}
+
+.blog-post {
+    justify-content: space-between;
+    border-bottom: 2.1px solid grey;
+    text-align: left;
+    display: flex;
+    padding: 1rem 8rem;
+}
+
+.blog-post-details {
+    line-height: 40px;
+    flex-basis: 80%;
+}
+
+.blog-container {
+    width: 96%;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0px 0px 7px 0px rgb(2 0 16);
+}
+
+.timestamp {
+    color: #0070BA;
+}
+
+.blog-post-details a{
+    color: black
+}
+
+.blog-post-details p {
+    color: grey
+}
+
+.blog-post-page {
+    padding: 2rem;
+}
+
+.badge-wrapper {
+    text-align: left;
+    background: white;
+    width: 35vw;
+    padding: 1rem 2rem;
+    line-height: 40px;
+    border-radius: 20px;
+}
+
+.badge-wrapper h2 {
+    border-bottom: 2.1px solid grey;
+}
+
+.badge-wrapper img {
+    border-radius: 50%;
+    width: 150px;
+}
+.badge-container {
+    padding-left: 3rem;
+    padding-bottom: 3rem;
+    padding-top: 2rem;
+    background-color: rgb(248, 249, 250);
+    box-shadow: 0px 0px 7px 0px rgb(2 0 16);
+}
+
+.badge-img {
+    text-align: center;
+}
+
+.footer-container {
+    padding-top: 3rem;
+    text-align: left;
+    background: white;
+    padding-bottom: 2rem;
+    padding-left: 6rem;
+    padding-right: 7rem;
+}
+
+.footer-one ul {
+    display: flex;
+    border-bottom: 2px solid grey;
+    padding-bottom: 1.5rem;
+}
+
+.footer-one ul li a {
+    margin-right: 3rem;
+    color: grey
+}
+
+.footer-two ul {
+    display: flex;
+    padding-top: 2rem;
+    justify-content:flex-end
+}
+
+.footer-two ul li a {
+    margin-right: 3rem;
+    color: grey;
+}
+
+.cookies-section {
+    padding: 3rem 6rem;
+    background-color: white;
+    margin: 0 auto;
+    padding-bottom: 10rem;
+}
+
+.cookies-wrapper {
+    background: rgb(0, 0, 53);
+    color: white;
+    padding: 5rem;
+    line-height: 34px;
+    font-size: 1.2rem;
+    box-shadow: 0px 0px 7px 0px rgb(2 0 16);
+}
+
+.cookies-wrapper p {
+    margin-bottom: 2rem;
+}
+
+.cookies-wrapper a {
+    background: white;
+    padding: .8rem 6.5rem;
+    border-radius: 50rem;
+    transition: .6s all;
+    border: 1.3px solid #0070BA; 
+}
+
+.cookies-wrapper a:hover {
+    background: rgb(1, 0, 24);
+    color: white;
+}
+
+.blog-post:last-child {
+    border-bottom: none;
+}
+
+
